@@ -366,24 +366,30 @@
             <svg width="30px" height="30px"class="icon-close">
                 <use href="./images/sprite.svg#icon-close"></use>
             </svg></button>
-        <form name="form" autocomplete="on" novalidate>Zostaw swoje dane w formularzu poniżej
-            <label for="user-name">Imię</label>
-                <input type="name" name="name" id="user-name"/>
+        <form name="form" autocomplete="on" novalidate>
+            <p class="form-name">Zostaw swoje dane w formularzu poniżej</p>
+           <div class="inputs"> <label for="user-name">Imię</label>
+                <input class="text-box" type="name" name="name" id="user-name"/>
             
             <label for="user-tel">Telefon</label>
-                <input type="tel" name="phone-number" id="user-tel"/>
+                <input  class="text-box" type="tel" name="phone-number" id="user-tel"/>
 
             
             <label for="user-email">Email</label>
-                <input type="email" name="email" id="user-email"/>
+                <input class="text-box" type="email" name="email" id="user-email"/>
             <label for="user-comments">Komentarz</label>
-                <textarea name="comments" id="user-comments" rows="4" placeholder="Wprowadź komentarz"></textarea>
-                <input type="checkbox" checked /> Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-            <button type="submit"Wyślij></button>
- 
+                <textarea name="comments" id="user-comments" rows="4" placeholder="Wprowadź tekst"></textarea>
+    
+            <label class="checkbox-text" >
+                <input type="checkbox" checked /> 
+                Oświadczam iż akceptuję <accent> Regulamin i Politykę Prywatności.</accent>
+            </label>
+            <button class="button" type="submit">Wyślij</button>
+        </div>
+  
         </form>
                 
-        </div>
+        
 
     </div>
     <script src="./js/modal.js"></script>
