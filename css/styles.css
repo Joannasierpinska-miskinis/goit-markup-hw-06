@@ -620,6 +620,12 @@ svg{
     visibility: hidden;
     pointer-events: none;
 }
+.form{
+    position: absolute;
+    display: block;
+    
+
+}
 
 /* ############ END BACKDROP ###########*/
 
