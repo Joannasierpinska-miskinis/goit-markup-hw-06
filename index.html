@@ -358,13 +358,18 @@
             </ul>
         </div>
         <div class="newsletter">
-            <h4 class="footer-headline"><b>ZAPISZ SIĘ DO NEWSLETTERA</b></h4>
-            <label for="user-email"></label>
-            <input class="email-input" type="email" name="email" id="user-email" placeholder="E-mail" />
-            </label>
-        
-            <button class="button" type="submit">Zapisz się</button>
-            
+            <form name="sign-up">
+                <label class="footer-headline" for="email"><b>ZAPISZ SIĘ DO NEWSLETTERA</b></label>
+                <div class="newsletter">
+                    <input class="email-input" type="email" name="email" id="email" placeholder="E-mail" />
+                <button class="nws-button">
+                    <input class="newsletter-btn" type="submit" value="Zapisz się"/>
+                <svg width="24px" height="24px" class="icon-icon-send">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+            </button>
+            </div>
+            </form>
         </div>
     </div>
     </footer>
@@ -376,14 +381,17 @@
             </svg></button>
         <form name="form" autocomplete="on" novalidate>
             <p class="form-name">Zostaw swoje dane w formularzu poniżej</p>
-           <div class="inputs"> <label for="user-name">Imię</label>
-                <input class="text-box" type="name" name="name" id="user-name"/>
+
+           <div class="inputs"> 
+               <label for="user-name">Imię</label>
+                <input class="text-box name" type="name" name="name" id="user-name"/>
             
             <label for="user-tel">Telefon</label>
-                <input class="text-box" type="tel" name="phone-number" id="user-tel"/>
+                <input class="text-box phone" type="tel" name="phone-number" id="user-tel"/>
                 
             <label for="user-email">Email</label>
-                <input class="text-box" type="email" name="email" id="user-email"/>
+                <input class="text-box email" type="email" name="email" id="user-email"/>
+
             <label for="user-comments">Komentarz</label>
                 <textarea name="comments" id="user-comments" rows="4" placeholder="Wprowadź tekst"></textarea>
     
