@@ -728,7 +728,7 @@ textarea:focus{
 }
 
 .name{
-    background-image: url(/images/person-black-18dp\ 1.svg);
+    background-image: url(../images/person-black-18dp\ 1.svg);
     background-repeat: no-repeat;
     background-position: 15px;
     padding-left: 42px;
@@ -736,13 +736,13 @@ textarea:focus{
 }
 
 .phone{
-    background-image: url(/images/phone-black-18dp\ 1.svg);
+    background-image: url(../images/phone-black-18dp\ 1.svg);
     background-repeat: no-repeat;
     background-position: 15px;
     padding-left: 42px;
 }
 .email{
-    background-image: url(/images/email-black-18dp\ 1.svg);
+    background-image: url(../images/email-black-18dp\ 1.svg);
     background-repeat: no-repeat;
     background-position: 15px;
     padding-left: 42px;
