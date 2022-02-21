@@ -725,6 +725,9 @@ margin-bottom: 20px;
 textarea:hover,
 textarea:focus{
    border: 1px solid #2196F3; 
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .name{
@@ -734,6 +737,7 @@ textarea:focus{
     padding-left: 42px;
 
 }
+
 
 .phone{
     background-image: url(../images/phone-black-18dp\ 1.svg);
@@ -876,7 +880,6 @@ textarea:focus{
 /* ############# END BUTTONS ###########*/
 /* ####### PROJECT'S IMAGES #########*/
 
-    
 .portfolio-list{
     list-style: none;
     display: flex;
@@ -899,6 +902,8 @@ textarea:focus{
 .portfolio-list-item:hover{
     box-shadow:0 0 11px rgba(33,33,33,.2);
     cursor: pointer;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .project-headline {
     font-family: Roboto;
@@ -925,22 +930,25 @@ textarea:focus{
     margin-bottom: 24px;
 }
 
-.overlay-container{
+.overlay-container {
     position: relative;
     overflow: hidden;
 }
-.overlay-container:hover .overlay{
-    transform:translateY(0)
-}
+
+ .overlay-container:hover .overlay {
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}   
+
 .overlay{
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .overlay{
