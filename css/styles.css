@@ -631,6 +631,16 @@ margin-bottom: 20px;
     margin-left: 70px;
     margin-right: 12px;
     margin-bottom: 20px;
+    outline: none;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+.email-input:hover,
+.email-input:focus{
+    border: 1px solid #2196F3; 
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -711,6 +721,7 @@ margin-bottom: 20px;
     top: 75px; 
     left: 40px;
     right: 40px;
+    outline: none;
 }
 .text-box{
     height: 40px;
@@ -737,7 +748,12 @@ textarea:focus{
     padding-left: 42px;
 
 }
-
+.name:hover,
+.name:focus{
+    background-image: url(../images/person-blue.svg);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .phone{
     background-image: url(../images/phone-black-18dp\ 1.svg);
@@ -745,11 +761,23 @@ textarea:focus{
     background-position: 15px;
     padding-left: 42px;
 }
+.phone:hover,
+.phone:focus{
+    background-image: url(../images/phone-blue.svg);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .email{
     background-image: url(../images/email-black-18dp\ 1.svg);
     background-repeat: no-repeat;
     background-position: 15px;
     padding-left: 42px;
+}
+.email:hover,
+.email:focus{
+    background-image: url(../images/email-blue.svg);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -777,6 +805,10 @@ textarea:focus{
     border: 1px solid #21212133;
     color: #757575;
     margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    justify-content: center;
  }
  ::placeholder{
     font-family: Roboto;
@@ -786,8 +818,7 @@ textarea:focus{
     line-height: 1,166;
     letter-spacing: 0.01em;
     text-align: left;
-    padding-top: 12px;
-    padding-left: 16px;
+    padding-top: 5px;
     color: rgba(117, 117, 117, 0.5);
  }
 .checkbox-text{
