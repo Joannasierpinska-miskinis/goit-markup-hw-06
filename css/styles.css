@@ -722,6 +722,7 @@ margin-bottom: 20px;
     left: 40px;
     right: 40px;
     outline: none;
+
 }
 .text-box{
     height: 40px;
@@ -729,12 +730,14 @@ margin-bottom: 20px;
     border-radius: 4px;
     border: 1px solid #21212133;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .text-box:hover,
 .text-box:focus,
 textarea:hover,
-textarea:focus{
+textarea:focus
+{
    border: 1px solid #2196F3; 
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -809,6 +812,7 @@ textarea:focus{
     padding-right: 15px;
     padding-top: 10px;
     justify-content: center;
+    outline: none;
  }
  ::placeholder{
     font-family: Roboto;
